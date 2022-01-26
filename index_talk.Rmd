@@ -31,21 +31,13 @@ for (package in neededPackages){pkgTest(package)}
 
 ```
 
+# Assignment setup (i.e. add more slides to play with structure)
+## Methods
+1. Download discharge data for the Poudre River at Lincoln Bridge, Fort Collins, CO
 
-# Methods
+2. Follow assignment instructions 1-9
 
-The Poudre River at Lincoln Bridge is:
-
-  - Downstream of only a little bit of urban stormwater
-
-  - Near Odell Brewing CO
-  
-  - Near an open space area and the Poudre River Trail
-  
-  - **Downstream of many agricultral diversions**
-
-
-## SiteDescription
+## The Poudre River at Lincoln Bridge, Fort Collins, CO
 
 ![](https://waterdata.usgs.gov/nwisweb/local/state/co/text/pics/06752260big.jpg)
 
@@ -65,7 +57,7 @@ q <- readNWISdv(siteNumbers = '06752260',
 ```
 
 
-# Assignment. 
+# Assignment
 
 
 This assignment will be primarily about demonstrating some expertice in using
