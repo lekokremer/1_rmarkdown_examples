@@ -21,7 +21,7 @@ pkgTest <- function(x)
 }
 
 # Make a vector of the packages you need
-neededPackages <- c('tidyverse', 'dataRetrieval', 'dygraphs', 'xts', 'revealjs') 
+neededPackages <- c('tidyverse', 'dataRetrieval', 'dygraphs', 'xts') 
 
 for (package in neededPackages){pkgTest(package)}
 
