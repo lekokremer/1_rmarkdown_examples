@@ -98,8 +98,6 @@ todays date, not just a static date you enter.
 9) Bonus, create an ["index_talk.Rmd"](https://rpubs.com/lekokremer/ESS580A7_1_RMD_Homework1) version of your document using the
 `revealjs` package. Add link to your original report-style document. 
 
-
-
 ## DyGraph example. 
 ```{r, echo = FALSE}
 q_xts <- xts(q$q, order.by = q$Date)
