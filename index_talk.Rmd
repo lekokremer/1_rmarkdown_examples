@@ -1,12 +1,16 @@
 ---
-title: "Discharge Data Homework1"
+title: "ESS580A7-1: RMD Homework1"
 author: "Lauren Kremer"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-  html_document:
-    toc: yes
-    toc_depth: 3
-    toc_float: yes
+  #html_document:
+    #toc: yes
+    #toc_depth: 3
+    #toc_float: yes
+  revealjs::revealjs_presentation:
+    theme: moon
+    highlight: kate
+    center: true
 ---
 
 ```{r setup, include=FALSE}
@@ -97,7 +101,7 @@ todays date, not just a static date you enter.
 
 
 ## DyGraph example. 
-```{r}
+```{r, echo = FALSE}
 q_xts <- xts(q$q, order.by = q$Date)
 
 dygraph(q_xts) %>%
@@ -107,7 +111,7 @@ dygraph(q_xts) %>%
 
 ## Poudre Paragraph
 
-The Poudre River has gone through many changes over time, most notably in the urban [transition zone](https://watercenter.colostate.edu/wp-content/uploads/sites/33/2019/05/Fish-in-the-Poudres-Thermal-and-Habitat-Transition-Zone-by-Boyd-Wright.pdf). Within this zone, bed armoring along the banks has created flow conditions within the Poudre River that behave more like a **plumbing system** than a natural river. Natural rivers have a variety of multi-braided side-channels and oxbows as the main channel carves through the floodplain [(Poff 1997)](https://www.jstor.org/stable/1313099). In the Poudre transition zone, however, the river floodplain has been heavily developed and the river itself has become increasingly channelized, bermed, and armored over time as a result. More than two-thirds of the riverbank within the urban zone is armored to provide resilience against floods and other high flow-events (Shanahan et al. 2016). The armoring of banks with riprap or concrete disconnects the river channel from its floodplain, eliminating the natural ability of the river to carve through the floodplain and form a more sinuous and diverse channel for aquatic species to seek refuge in during times of high temperatures or low flows.
+<small>The Poudre River has gone through many changes over time, most notably in the urban [transition zone](https://watercenter.colostate.edu/wp-content/uploads/sites/33/2019/05/Fish-in-the-Poudres-Thermal-and-Habitat-Transition-Zone-by-Boyd-Wright.pdf). Within this zone, bed armoring along the banks has created flow conditions within the Poudre River that behave more like a **plumbing system** than a natural river. Natural rivers have a variety of multi-braided side-channels and oxbows as the main channel carves through the floodplain [(Poff 1997)](https://www.jstor.org/stable/1313099). In the Poudre transition zone, however, the river floodplain has been heavily developed and the river itself has become increasingly channelized, bermed, and armored over time as a result. More than two-thirds of the riverbank within the urban zone is armored to provide resilience against floods and other high flow-events (Shanahan et al. 2016). The armoring of banks with riprap or concrete disconnects the river channel from its floodplain, eliminating the natural ability of the river to carve through the floodplain and form a more sinuous and diverse channel for aquatic species to seek refuge in during times of high temperatures or low flows.<small>
 
 
  _Shanahan J, Oropeza J, Heath J, Beardsley M, Beeby J, Johnson, B. State of the Poudre: A river health assessment. 2017 May. 125._ [Retrieved from fcgov.com](https://www.fcgov.com/poudrereportcard/pdf/sopr2016.pdf) 

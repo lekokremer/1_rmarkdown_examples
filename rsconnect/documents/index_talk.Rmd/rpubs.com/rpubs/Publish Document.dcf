@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/859112/e8a1f9a9d4cf491ab52e5813273995ac
+bundleId: https://api.rpubs.com/api/v1/document/859112/e8a1f9a9d4cf491ab52e5813273995ac
+url: http://rpubs.com/lekokremer/859112
+when: 1643213096.49055
